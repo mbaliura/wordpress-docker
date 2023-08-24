@@ -1,0 +1,16 @@
+/*
+node_modules
+package-lock.json
+dist
+
+!/db
+!/config
+!.env.example
+!.gitignore
+!docker-compose.yaml
+!db/backup.sql
+!db_backup
+!db_restore
+!up
+!down
+!README.md
