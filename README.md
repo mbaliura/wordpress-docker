@@ -9,6 +9,7 @@ Original official wordpres image doesn't contain Xdebug and WP-cli, so it will b
 Docker and Docker-compose.
 
 ## How to run
+Rename or copy `.env.example` to `.env`. Change env variables if necessary.
 Run Docker contaiters as usually with `docker-compose up` or use shell script:
 
     $ ./up
@@ -19,6 +20,10 @@ When mysql container starting first time, they can be inited with sql-dump. Just
 __Open localhost:8000 to see running site__
 
 ## Some another usefull commands:
+
+Run bash inside wordpress container:
+
+    $ ./shell
 
 Stop and remove containers:
 
